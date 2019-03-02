@@ -6,15 +6,13 @@ public class WalkAndShoot : MonoBehaviour
 
     public float throwingSpeed = 10f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public float speed;
 
     // Update is called once per frame
     void Update()
     {
+        transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+
         if (Input.GetButtonDown("Fire1"))
         {
             GameObject pokeBallObj = Instantiate(pokeBall);
