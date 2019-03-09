@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RandomMonsterGenerator : MonoBehaviour
 {
@@ -9,7 +7,7 @@ public class RandomMonsterGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < Random.Range(10,15); i++)
+        for (int i = 0; i < Random.Range(700, 900); i++)
         {
             MonsterCount();
         }
@@ -20,6 +18,6 @@ public class RandomMonsterGenerator : MonoBehaviour
         int monsterIndex = Random.Range(0, diffMonsters.Length);
         GameObject rMonster = Instantiate(diffMonsters[monsterIndex]);
         rMonster.transform.parent = transform;
-        rMonster.transform.localPosition = new Vector3(Random.Range(-9,9),0,Random.Range(-9,9));
+        rMonster.transform.localPosition = new Vector3(Random.Range(-95, 95), 0, Random.Range(-95, 95));
     }
 }

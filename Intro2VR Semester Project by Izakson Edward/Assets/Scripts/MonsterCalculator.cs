@@ -7,6 +7,7 @@ public class MonsterCalculator : MonoBehaviour
     void Start()
     {
         counter = 0;
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()

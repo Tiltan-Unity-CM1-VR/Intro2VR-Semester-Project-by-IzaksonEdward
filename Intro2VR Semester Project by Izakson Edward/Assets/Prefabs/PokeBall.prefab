@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7970127416789255247}
   - component: {fileID: 2056160775741345762}
   - component: {fileID: 2721976327226697083}
+  - component: {fileID: 9069860051232172953}
   m_Layer: 0
   m_Name: PokeBall
   m_TagString: Untagged
@@ -119,5 +120,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f956bdfbe4cddfc4aaf1d1f0e2f40f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9069860051232172953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7970127416789255246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895b823e44c3bdc48a492f45f8a74f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
